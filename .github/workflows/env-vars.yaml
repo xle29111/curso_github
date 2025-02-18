@@ -6,7 +6,7 @@ env:
   WF_LEVEL_ENV: Available to all jobs
 
 jobs:
-  env-vars-and-context:
+  env-vars-and-context: 
     runs-on: ubuntu-latest
     # if: $GITHUB_REF == 'refs/heads/main' DONT DO THIS
     if: github.ref == 'refs/heads/main'
